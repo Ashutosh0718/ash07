@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+
+    <style>
+        
+        .header {
+            background-color: #d9d9d9;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            border: 1px solid black;
+        }
+        .header span {
+            color: red;
+            font-weight: bold;
+        }
+
+        
+        .box {
+            width: 95%;
+            border: 1px solid black;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        
+        .inline-menu a {
+            display: inline;
+            background: rgb(179, 205, 255);
+            padding: 5px 10px;
+            margin: 5px;
+            border: 1px solid #87a8e5;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        
+        .inline-block-menu a {
+            display: inline-block;
+            background: #c7ffc7;
+            padding: 7px 12px;
+            margin: 5px;
+            border: 1px solid #7bd17b;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        
+        .float-menu a {
+            float: left;
+            background: #ffd5cc;
+            padding: 7px 12px;
+            margin: 5px;
+            border: 1px solid #ff9e85;
+            text-decoration: none;
+        }
+
+        
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="header">
+            My <span>Website</span> Navigation
+        </div>
+
+        <br>
+
+
+        <div class="inline-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <br><br>
+
+    
+        <div class="inline-block-menu">
+            <a href="#">Dashboard</a>
+            <a href="#">Profile</a>
+            <a href="#">Messages</a>
+            <a href="#">Logout</a>
+        </div>
+
+        <br><br>
+
+        
+        <div class="float-menu">
+            <a href="#">Item 1</a>
+            <a href="#">Item 2</a>
+            <a href="#">Item 3</a>
+            <a href="#">Item 4</a>
+        </div>
+
+        
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+</html>
