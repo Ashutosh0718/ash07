@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Responsive Product Grid</title> 
+  <style> 
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      background: #f5f5f5; 
+      padding: 20px; 
+    } 
+ 
+    h2 { 
+      text-align: center; 
+      margin-bottom: 20px; 
+    }
+    .grid { 
+      display: grid; 
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 20px; 
+    } 
+ 
+    .card { 
+      background: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+      padding: 55px; 
+      text-align: center; 
+    } 
+ 
+    .card img { 
+      width: 100%; 
+      height: max-content;
+      object-fit: cover; 
+      border-radius: 6px; 
+      margin-bottom: 10px; 
+    } 
+ 
+    .card h3 { 
+      font-size: 18px; 
+      margin: 8px 0; 
+    } 
+ 
+    .card p { 
+      font-size: 14px; 
+      color: #555; 
+      margin: 4px 0; 
+    } 
+ 
+    .price { 
+      font-weight: bold; 
+      color: #007bff; 
+    } 
+  
+    @media (max-width: 1024px) { 
+      .grid { 
+        grid-template-columns: repeat(2, 1fr); 
+      } 
+    } 
+ 
+    @media (max-width: 600px) { 
+      .grid { 
+        grid-template-columns: 1fr; 
+      } 
+    } 
+  </style> 
+</head> 
+<body> 
+  <h2>Responsive Product Grid</h2> 
+<div class="grid"> 
+    <div class="card"> 
+      <img src="https://cdn.shopify.com/s/files/1/0670/7688/2653/files/86fb9f06-1525-4b23-b257-805885ac798a-1_d60e4f68-d823-4bc0-b840-16b850cb12fa.png?v=1727445542" alt="i-Phone 14" > 
+      <h3>I-phone</h3> 
+      <p>Premium design with powerful performance</p> 
+      <p class="price">₹11,499</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="https://m.media-amazon.com/images/I/71So2NW90FL.jpg" alt="Product 2"> 
+      <h3>HP PAVILLION</h3> 
+      <p>Intel Core i5 Processor 8 256GB</p> 
+      <p class="price">₹799</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="https://i5.walmartimages.com/asr/c2e15fb6-487d-45e6-b1ac-faaac2105e75_1.81c76d946ac2e4690632ebd53b6ef8a7.jpeg" alt="Product 3"> 
+      <h3>MICROWAVE</h3> 
+      <p>20 Litre Capacity 800 Watt Power Output</p> 
+      <p class="price">₹1,999</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="https://th.bing.com/th/id/R.5010ae27efcfc2d9bc00abe63edc372f?rik=%2fq9uKCzidLanNg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-UKnHOEYoXe4%2fU83HnY-6ceI%2fAAAAAAAAAIg%2fSLFQjkLmn9s%2fs1600%2fAir-Conditioner-Wall-AC_Hd.jpg&ehk=B50DL72UelPTuf12TQ0J4AWILYjs4Vmt18VzNW2%2f70A%3d&risl=&pid=ImgRaw&r=0" alt="Product 4"> 
+      <h3>AIR CONDITIONER</h3> 
+      <p>1.5 Ton Capacity 5 Star Energy Rating</p> 
+      <p class="price">₹9999</p> 
+    </div> 
+  </div> 
+</body> 
+</html>
+<p>Ashutosh Maurya</p>
+<p>2025b02310049</p>
+</body>
+</html>
