@@ -1,19 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment 8</title>
-    <style>
-        #circle{
+html>
+    <head>
+        <style>
+            body
+            {
+                height:100vh;
+                width: 100%;
+                 display:flex;
+                justify-content: center;
+                align-items: center;
+            }
 
-        }
-    div{
-        b
-    }
-    </style>
-</head>
-<body>
-    
-</body>
+            
+            .box1
+            {
+                background-color: orange;
+                height:250;
+                width:250;
+                padding:40px;
+                
+
+            }
+            .box2
+            {
+                background-color:skyblue;
+                height:200;
+                width:200;
+                padding:30px;
+                 
+            }
+            .box3
+            {
+                background-color: yellow;
+                height:150;
+                width:150;
+                padding:20px;
+              
+
+            }
+            .box4
+            {
+                background-color: green;
+                height:100;
+                width:100;
+                padding:10px;
+
+            }
+            .box1,.box2,.box3,.box4{
+                 display:flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body style=" background-color:black">
+        <div class="box1">
+           <center> margin</center>
+           <div class="box2">
+            <center>border</center>
+                <div class="box3">
+                <center>padding</center>
+                    <div class="box4">
+                    <center>content</center>
+                    </div>
+                </div>
+           </div>
+           
+        </div>
+        
+        
+    </body>
 </html>
